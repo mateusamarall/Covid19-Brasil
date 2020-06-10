@@ -1,0 +1,100 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --title-color: #322153;
+}
+
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background: #5d24e0;
+}
+main {
+  margin-top: 25px;
+  margin-left: 25px;
+  color: #fff;
+  animation-name: up;
+  animation-duration: 1500ms;
+}
+@keyframes up {
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+  to {
+    opacity: 1;
+  }
+}
+header {
+  font-size: 28px;
+}
+span {
+  color: #f3dc0b;
+}
+
+.sobrecovid {
+  padding: 28px;
+  width: 63%;
+  float: left;
+}
+.sobrecovid p {
+  font-size: 25px;
+}
+.sintomas {
+  float: right;
+
+  width: 30%;
+}
+.sintomas ul {
+  list-style: disc;
+}
+.sintomas li {
+  font-size: 19px;
+}
+.sintomas h4 {
+  font-size: 20px;
+  color: #f3dc0b;
+}
+#cases {
+  margin-top: 13%;
+  padding-left: 65px;
+}
+#cases h1 {
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+.container {
+  display: flex;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  font-size: 28px;
+  margin-right: 9px;
+}
+#casoscovid {
+  background-color: #366fe9;
+}
+#confircovid {
+  background-color: #b7c53b;
+}
+#mortescovid {
+  background-color: #eb3535;
+}
+#recupcovid {
+  background-color: #37df4d;
+}
+
+.hashtag {
+  margin-top: 9px;
+  padding-left: 65px;
+  font-size: 20px;
+  font-weight: bold;
+}

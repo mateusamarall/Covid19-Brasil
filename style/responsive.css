@@ -1,0 +1,92 @@
+@media (max-width: 900px) {
+  .sobrecovid {
+    width: 50%;
+  }
+  .sobrecovid p {
+    font-size: 25px;
+  }
+  .sintomas {
+    width: 40%;
+  }
+
+  #cases {
+    margin-top: 63%;
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .sobrecovid {
+    width: 40%;
+  }
+  .sobrecovid p {
+    font-size: 25px;
+  }
+
+  .sintomas {
+    width: 30%;
+  }
+
+  .sintomas h4 {
+    font-size: 16px;
+  }
+  .sintomas ul li {
+    font-size: 17px;
+  }
+
+  #cases {
+    margin-top: 43%;
+    padding-left: 35px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .sobrecovid {
+    width: 50%;
+  }
+  .sobrecovid p {
+    font-size: 25px;
+  }
+
+  .sintomas {
+    width: 43%;
+  }
+
+  .sintomas ul li {
+    font-size: 17px;
+  }
+  .sintomas h4 {
+    font-size: 20px;
+  }
+  #cases {
+    margin-top: 23%;
+    padding-left: 35px;
+  }
+}
+@media (min-width: 2560px) {
+  header {
+    font-size: 90px;
+  }
+  .sobrecovid p {
+    font-size: 40px;
+  }
+  .sintomas h4 {
+    font-size: 38px;
+  }
+  .sintomas ul li {
+    font-size: 35px;
+  }
+  .card {
+    font-size: 40px;
+    padding: 45px;
+  }
+  .hashtag {
+    font-size: 40px;
+  }
+}
+@media (max-height: 760px) {
+  #cases {
+    margin-top: 63%;
+    padding-left: 35px;
+  }
+}
