@@ -1,4 +1,4 @@
-<h1 align="center">  🤜 Aplicação sobre Covid-19 🤛 </h1>
+<h1 align="center">Aplicação sobre Covid-19</h1>
 
 Aplicação simples criada para consultar casos de covid-19 no brasil.
 
