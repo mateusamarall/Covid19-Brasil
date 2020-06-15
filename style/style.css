@@ -69,7 +69,9 @@ span {
   margin-bottom: 10px;
 }
 
-.container {
+.container,
+.containersp,
+.containerrj {
   display: flex;
 }
 .card {
