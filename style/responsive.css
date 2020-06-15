@@ -8,7 +8,9 @@
   .sintomas {
     width: 40%;
   }
-
+  #cases #h1brasil {
+    margin-top: 60%;
+  }
   #cases {
     margin-top: 63%;
     padding-left: 15px;
